@@ -22,7 +22,7 @@ job_titles = ['Data Analyst', 'Data Engineer', 'Data Scientist']
 
 ### Results / Visualization
 
-![Visualization of Top Skills in Data](3_Project\images\skill_demand_in_top_roles.png)
+![Visualization of Top Skills in Data](3_Project/images/skill_demand_in_top_roles.png)
 
 ### Summary of the data via visualization
 
