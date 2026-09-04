@@ -34,7 +34,7 @@ Each notebook of the Jupyter in the project focuses at analysis of specific aspe
 ## 1. What are the most demanded skills for the top 3 most popular data roles? 
 To find the most demanded skills for the top 3 most popular dat aroles. I fildtered out those positions by which ones were the most popular, and tot the top 5 skills for these top 2 roles. This query highlights the most popular jon titles and their top skills and their top skills, showcasing which skills I should pay attention to depending on the role I am targeting 
 
-See my notebook with steps here [2_Skill_Demand.ipynb](3_Project\2_Skill_demand.ipynb)
+See my notebook with steps here [2_Skill_Demand.ipynb](3_Project/2_Skill_demand.ipynb)
 
 ### Code View 
 ```python
@@ -63,7 +63,7 @@ job_titles = ['Data Analyst', 'Data Engineer', 'Data Scientist']
 ## 2. How are in-demand skills trending for Data Engineers?
 To see how skills used in Data Engineering role changed throughout 2023, I focused on Data Engineer job postings and grouped the required skills by the month each job was posted. This allowed me to identify the top five skills for each month and see how their popularity shifted over the course of the year.
 
-See my notebook with detailed steps here: [3_Skill_Trend.ipynb](3_Project\3_Skill_Trend.ipynb)
+See my notebook with detailed steps here: [3_Skill_Trend.ipynb](3_Project/3_Skill_Trend.ipynb)
 
 ### Code View 
 ```python
@@ -97,7 +97,7 @@ plt.show()
 ## 3. How well do jobs and skills pay for Data Engineer?
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most. 
 
-View my notebook with detailed steps here: [4_Salary_analysis.ipynb](3_Project\4_Salary_analysis.ipynb)
+View my notebook with detailed steps here: [4_Salary_analysis.ipynb](3_Project/4_Salary_analysis.ipynb)
 
 ### Code View 
 ```python
