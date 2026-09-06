@@ -1,17 +1,17 @@
 # Overview 
-Welcome to my analysis of the data job market, focusing on data engineer roles. This project was created out of a desire to navigate and understand the job market more effectively. It delves into the top-paying and in-demand skills in US market to help find optimal job opportunities for data analysts.
+Welcome to my analysis of the data job market, focusing on data engineer roles. This project was created out of a desire to navigate and understand the job market more effectively. It delves into the top-paying and in-demand skills in US market to help find optimal job opportunities for data Engineering role.
 
 The data sourced from Hugging face online platform provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts, I explore key questions such as the most demanded skills, salary trends, and the intersection of demanded and salary in data analytics that I also called Optimal salary in this project. 
 
 # The Questions
 Below are the questions 1 want to answer in my project:
 1. What are the skills most in demand for the top 3 most popular data roles?
-2. How are in-demand skills trending for Data Analysts?
-3. How well do jobs and skills pay for Data Analysts?
-4. What are the optimal skills for data analysts to learn? (High Demand AND High Paying)
+2. How are in-demand skills trending for Data Engineers?
+3. How well do jobs and skills pay for Data Engineers?
+4. What are the optimal skills for data engineers to learn? (High Demand AND High Paying)
 
 # Tools I Used 
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
+For my deep dive into the data engineers job market, I harnessed the power of several key tools:
 
 - Python: The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
  jiolgj
