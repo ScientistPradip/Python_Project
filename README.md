@@ -123,3 +123,33 @@ plt.show()
   - There's a significant variation in salary ranges across different job titles. Senior Data Scientist's maximum number of salary reached to more than 500k but only few job roles had that salary most of them was was in range of 300k salary per year. This indicates highest value of salary for senior Data Scientist among all data roles.
   - Senior data engineermost position is in salary range of 200k to 300k that is great as they has advanced data skills and experience following 3rd as Data Scientist role also has highest salary requiring advanced ML skills
   -  The median salaries increase with the seniority and specialization of the roles. Senior roles (Senior Data Scientist, Senior Data Engineer  ) not only has higher median salaries but also larger differences in typical salaries, reflecting greatest skills and experience responsibilities increase.
+
+  ## 4. What are the optimal skills for data engineers to learn? (High Demand AND High Paying)
+
+  To identify the optimal skills for Data Engineers, I combined high-demand skills with high-paying skills. This helped me find the skills that are both frequently requested in Data Engineer job postings and linked to higher salaries. These skills can provide a good balance between job opportunities and earning potential.
+
+  ### Visualization / Results
+![Visualization of Optimal Skills](3_Project/images/4_optimal_skills(demanded+most_paying).png)
+
+
+### Code View 
+```python
+# Find high-demand and high-paying skills and combine both to get the optimal sikills
+
+df_optimal = df_DE_skills[
+    (df_DE_skills['skill_percent'] > 5) &
+    (df_DE_skills['median_salary'] > df_DE_skills['median_salary'].median())
+]
+
+df_optimal[['job_skills', 'skill_percent', 'median_salary']] \
+    .sort_values('median_salary', ascending=False)
+```
+
+### Insights
+- SQL and Python are the most in-demand skills for Data Engineers, appearing in more than 65% of the job postings. This shows that strong knowledge of SQL and Python is essential for building a career in Data Engineering.
+- AWS, Spark, and Azure are also highly demanded skills and have relatively high median salaries. This indicates that cloud technologies and big-data tools can provide strong career opportunities for Data Engineers.
+- The most optimal skills are those that combine high demand with higher salaries. Skills such as Python, AWS, and Spark stand out because they are frequently requested in job postings while also having strong median salaries. This makes them valuable skills for Data Engineers to learn and develop.
+
+## Project Conclusion
+
+This project provided practical experience in analyzing the US data job market using Python and data visualization tools. The analysis showed that SQL, Python, AWS, and Spark are highly valuable skills for Data Engineers, while senior and specialized roles offer higher salaries. Overall, the project helped identify the most in-demand, high-paying, and optimal skills for building a career in Data Engineering.
